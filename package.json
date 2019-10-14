@@ -1,0 +1,30 @@
+{
+  "name": "401d32-Class1-Lab00",
+  "version": "1.0.0",
+  "description": "Lab 00",
+  "main": "hello.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest --verbose",
+    "lint": "eslint './lib/**/*.js' --fix",
+    "jsdoc": "jsdoc -c ./docs/config/jsdoc.config.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pcarmichael22/401d32-Class1-Lab00.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pcarmichael22/401d32-Class1-Lab00/issues"
+  },
+  "homepage": "https://github.com/pcarmichael22/401d32-Class1-Lab00#readme",
+  "dependencies": {
+    "eslint": "^6.5.1",
+    "jest": "^24.9.0"
+  },
+  "devDependencies": {
+    "jsdoc": "^3.6.3"
+  }
+}
